@@ -1,0 +1,28 @@
+{
+    "name": "@fdsu/docs",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+        "serve": "vuepress dev .",
+        "docs:build": "vuepress build ."
+    },
+    "dependencies": {
+        "@vuepress/plugin-active-header-links": "^2.0.0-beta.43",
+        "@vuepress/plugin-back-to-top": "^2.0.0-beta.43",
+        "@vuepress/plugin-docsearch": "^2.0.0-beta.43",
+        "@vuepress/plugin-external-link-icon": "^2.0.0-beta.43",
+        "@vuepress/plugin-medium-zoom": "^2.0.0-beta.43",
+        "@vuepress/plugin-nprogress": "^2.0.0-beta.43",
+        "@vuepress/plugin-prismjs": "^2.0.0-beta.43",
+        "@vuepress/plugin-register-components": "^2.0.0-beta.43",
+        "@vuepress/plugin-search": "^2.0.0-beta.43",
+        "@vuepress/shared-utils": "^1.9.7",
+        "array-grouping": "^1.0.8",
+        "vuepress": "^2.0.0-beta.43"
+    },
+    "devDependencies": {
+        "axios": "^0.27.2",
+        "less-loader": "^10.2.0",
+        "vuepress-plugin-auto-sidebar": "^2.4.0-alpha.5"
+    }
+}
